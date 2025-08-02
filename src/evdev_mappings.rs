@@ -150,6 +150,7 @@ static KEY_MAP: phf::Map<&'static str, Key> = phf_map! {
     "f22" => Key::KEY_F22,
     "f23" => Key::KEY_F23,
     "f24" => Key::KEY_F24,
+    "super_l" => Key::KEY_COPY
 };
 
 pub fn convert(s: &str) -> Result<Key, ParseError> {
