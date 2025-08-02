@@ -126,6 +126,7 @@ key_base            =  {
   | ^"f7"
   | ^"f8"
   | ^"f9"
+  | ^"super_l"
   | ASCII_ALPHANUMERIC
 }
 
